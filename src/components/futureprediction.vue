@@ -19,6 +19,7 @@
                         class="description"
                         >https://arco0922.github.io/FuturePrediction/</a
                     >
+                    (PC限定)
                 </p>
                 <p class="description">Unity / C#</p>
                 <p class="description">

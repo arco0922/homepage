@@ -20,27 +20,27 @@
                         <br />
                         <div class="events">
                             <div class="event">
-                                <p>2015</p>
+                                <p class="when">2015</p>
                                 <p>
                                     日本数学コンクール論文賞銀賞
                                 </p>
                             </div>
                             <div class="event">
-                                <p>2016</p>
+                                <p class="when">2016</p>
                                 <p>
                                     第26回日本数学オリンピック本選入賞
                                     (日本代表選考合宿参加)
                                 </p>
                             </div>
                             <div class="event">
-                                <p>2017</p>
+                                <p class="when">2017</p>
                                 <p>
                                     桐蔭学園中等教育学校卒業<br />
                                     東京大学理科一類入学
                                 </p>
                             </div>
                             <div class="event">
-                                <p>2021</p>
+                                <p class="when">2021</p>
                                 <p>
                                     同大学工学部機械情報工学科卒業<br />
                                     東京大学大学院情報理工学系研究科入学
@@ -48,7 +48,7 @@
                                 </p>
                             </div>
                             <div class="event">
-                                <p>他</p>
+                                <p class="when">他</p>
                                 <p>
                                     第24回日本クラシック音楽コンクールヴァイオリン部門高校生の部第5位
                                 </p>
@@ -86,7 +86,7 @@
         <div id="contact" class="section">
             <h1 class="section__title">Contact</h1>
 
-            <p style="padding-left: 5px; margin-bottom: 10px">
+            <p style="padding-left: 5px; margin-bottom: 20px">
                 Mail : k9o2u2ta[AT]gmail.com
             </p>
             <md-button class="md-icon-button" @click="gotogit">
@@ -149,17 +149,27 @@ export default {
     },
     computed: {
         worksstyle() {
-            if (this.window.width > 630) {
-                return { gap: '30px' };
+            /*if (this.window.width > 630) {
+                return { columnGap: '30px' };
             } else {
-                return { gap: '5px' };
+                return { columnGap: '5px' };
+            }*/
+            if (this.window.width > 630) {
+                return { margin: '0px -15px 0px -15px' };
+            } else {
+                return { margin: '0px -2px 0px -2px' };
             }
         },
         workstyle() {
-            if (this.window.width > 630) {
-                return {};
+            /*if (this.window.width > 630) {
+                return { marginBottom: '30px' };
             } else {
                 return { marginBottom: '30px' };
+            }*/
+            if (this.window.width > 630) {
+                return { margin: '0px 15px 30px 15px' };
+            } else {
+                return { margin: '0px 3px 30px 3px' };
             }
         },
     },
@@ -224,7 +234,9 @@ export default {
 .section__content {
     display: flex;
     align-items: center;
-    gap: 10%;
+}
+.section__content > img {
+    margin-right: 10%;
 }
 #usericon {
     border-radius: 50%;
@@ -240,13 +252,16 @@ export default {
 }
 .event {
     display: flex;
-    gap: 10px;
     margin-top: 10px;
+}
+.when {
+    margin-right: 10px;
+    min-width: 32px;
+    text-align: center;
 }
 .works__contents {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     justify-content: space-evenly;
 }
 .thumbnails {

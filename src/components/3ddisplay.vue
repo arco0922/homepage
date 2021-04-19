@@ -22,7 +22,6 @@
                         class="description"
                         >https://arco0922.github.io/3D_Display/</a
                     >
-                    (Firefox推奨)
                 </p>
                 <p class="description">
                     HTML / CSS / JavaScript (p5.js, ml5.js)
