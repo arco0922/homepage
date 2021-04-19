@@ -28,6 +28,7 @@
                         loop
                         autoplay
                         muted
+                        playsinline
                         class="demo2"
                     ></video>
                     <video
@@ -35,6 +36,7 @@
                         loop
                         autoplay
                         muted
+                        playsinline
                         class="demo2"
                     ></video>
                     <video
@@ -42,6 +44,7 @@
                         loop
                         autoplay
                         muted
+                        playsinline
                         class="demo2"
                     ></video>
                     <p style="margin-top:25px; margin-bottom:25px;">
@@ -52,6 +55,7 @@
                         loop
                         autoplay
                         muted
+                        playsinline
                         class="demo2"
                     ></video>
                     <video
@@ -59,6 +63,7 @@
                         loop
                         autoplay
                         muted
+                        playsinline
                         class="demo2"
                     ></video>
                 </div>

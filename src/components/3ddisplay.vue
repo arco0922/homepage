@@ -8,6 +8,7 @@
                     loop
                     autoplay
                     muted
+                    playsinline
                     class="demo"
                 ></video>
                 <div class="hosoku">

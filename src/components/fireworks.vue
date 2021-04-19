@@ -8,6 +8,7 @@
                     loop
                     autoplay
                     muted
+                    playsinline
                     class="demo"
                 ></video>
                 <p class="description">
