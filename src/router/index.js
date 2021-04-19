@@ -8,7 +8,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({
     routes: [
         {
-            path: '/',
+            path: '/home',
             name: 'home',
             component: toppage,
         },
@@ -16,6 +16,10 @@ const router = new VueRouter({
             path: '/:worktitle',
             name: 'workdetail',
             component: detailpage,
+        },
+        {
+            path: '*',
+            redirect: '/home',
         },
     ],
 });
