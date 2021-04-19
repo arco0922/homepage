@@ -84,9 +84,9 @@
             </transition>
         </div>
         <div id="contact" class="section">
-            <h1 class="section__title">Contact</h1>
+            <h1 class="section__title" style="margin-bottom: 25px">Contact</h1>
 
-            <p style="padding-left: 5px; margin-bottom: 20px">
+            <p style="padding-left: 5px; margin-bottom: 16px">
                 Mail : k9o2u2ta[AT]gmail.com
             </p>
             <md-button class="md-icon-button" @click="gotogit">
