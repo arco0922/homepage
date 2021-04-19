@@ -145,4 +145,7 @@ export default {
         0 0 5px rgba(0, 0, 0, 0.1);
     transform: translateY(-4px);
 }
+.forupdate {
+    margin: 0;
+}
 </style>

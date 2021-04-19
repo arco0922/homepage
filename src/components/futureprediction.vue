@@ -92,4 +92,7 @@ export default {
 .refimg {
     padding: 20px 0px 40px 0px;
 }
+.forupdate {
+    margin: 0;
+}
 </style>

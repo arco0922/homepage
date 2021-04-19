@@ -21,7 +21,7 @@ export default {
     (
         primary: #448aff,
         // The primary color of your brand
-            accent: #ff5252 // The secondary color of your brand,,,,,,,,,
+            accent: #ff5252 // The secondary color of your brand,,,,,,,,,,
     )
 );
 
@@ -39,5 +39,8 @@ export default {
 @font-face {
     font-family: 'gokuboso';
     src: url('./assets/Alcubierre.otf') format('opentype');
+}
+.forupdate {
+    margin: 0;
 }
 </style>

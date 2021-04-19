@@ -122,4 +122,7 @@ export default {
     font-size: 12px;
     margin-bottom: 20px;
 }
+.forupdate {
+    margin: 0;
+}
 </style>

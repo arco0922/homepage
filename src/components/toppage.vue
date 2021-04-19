@@ -267,4 +267,7 @@ export default {
 .content-enter {
     opacity: 0;
 }
+.forupdate {
+    margin: 0;
+}
 </style>

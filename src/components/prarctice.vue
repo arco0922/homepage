@@ -96,4 +96,7 @@ export default {
 li {
     margin-bottom: 5px;
 }
+.forupdate {
+    margin: 0;
+}
 </style>

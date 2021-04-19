@@ -90,4 +90,7 @@ export default {
     font-size: 10px;
     text-align: center;
 }
+.forupdate {
+    margin: 0;
+}
 </style>
