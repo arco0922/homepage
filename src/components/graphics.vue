@@ -28,6 +28,7 @@
                         loop
                         autoplay
                         muted
+                        controls
                         playsinline
                         class="demo2"
                     ></video>
@@ -36,6 +37,7 @@
                         loop
                         autoplay
                         muted
+                        controls
                         playsinline
                         class="demo2"
                     ></video>
@@ -44,6 +46,7 @@
                         loop
                         autoplay
                         muted
+                        controls
                         playsinline
                         class="demo2"
                     ></video>
@@ -55,6 +58,7 @@
                         loop
                         autoplay
                         muted
+                        controls
                         playsinline
                         class="demo2"
                     ></video>
@@ -63,6 +67,7 @@
                         loop
                         autoplay
                         muted
+                        controls
                         playsinline
                         class="demo2"
                     ></video>
