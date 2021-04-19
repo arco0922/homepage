@@ -18,7 +18,7 @@
                         style="-webkit-backface-visibility: hidden;"
                     />
                     <img
-                        src="@/assets/graphics2.png"
+                        src="@/assets/graphics2-min.png"
                         class="demo2"
                         style="-webkit-backface-visibility: hidden;"
                     />
