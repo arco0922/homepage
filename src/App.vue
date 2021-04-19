@@ -19,9 +19,9 @@ export default {
 @include md-register-theme(
     'default',
     (
-        primary: #ff8777,
+        primary: #448aff,
         // The primary color of your brand
-            accent: #a2d5ff // The secondary color of your brand,,,,,,,,
+            accent: #ff5252 // The secondary color of your brand,,,,,,,,,
     )
 );
 
