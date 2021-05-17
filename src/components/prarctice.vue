@@ -13,7 +13,7 @@
                     class="demo"
                 ></video>
                 <p class="description">
-                    (このアプリは公開されていません)
+                    作品URL：このアプリは公開されていません
                 </p>
                 <p class="description">
                     Hololens / Unity / C# / Python

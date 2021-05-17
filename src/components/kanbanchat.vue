@@ -9,12 +9,14 @@
                     style="-webkit-backface-visibility: hidden;"
                 />
                 <p class="description">
+                    作品URL：
                     <a
                         href="https://kanbanchat-d69b9.web.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         >https://kanbanchat-d69b9.web.app/</a
                     >
+                    (PC推奨)
                 </p>
                 <p class="description">
                     Vue.js / Vuex / Node.js / Express / MongoDB / Pusher /

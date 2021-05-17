@@ -16,7 +16,7 @@
                     (上の動画はローカルで動かしたもので、ブラウザ上だと動作がやや重くなります)
                 </div>
                 <p class="description">
-                    <a
+                    作品URL：<a
                         href="https://arco0922.github.io/3D_Display/"
                         target="_blank"
                         rel="noopener noreferrer"
