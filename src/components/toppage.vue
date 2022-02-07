@@ -15,7 +15,7 @@
           <img src="@/assets/usericon.png" id="usericon" />
           <div class="description">
             <p style="font-size:20px; margin-top:10px">
-              新井康太 Kouta Arai
+              新井康太 Kota Arai
             </p>
             <br />
             <div class="events">
