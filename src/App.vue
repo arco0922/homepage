@@ -1,13 +1,13 @@
 <template>
-    <div id="app__container">
-        <router-view id="app__content" />
-    </div>
+  <div id="app__container">
+    <router-view id="app__content" />
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'App',
-    components: {},
+  name: 'App',
+  components: {},
 };
 </script>
 
@@ -17,30 +17,29 @@ export default {
 @import '~vue-material/dist/theme/engine';
 
 @include md-register-theme(
-    'default',
-    (
-        primary: #448aff,
-        // The primary color of your brand
-            accent: #ff5252 // The secondary color of your brand,,,,,,,,,,
-    )
+  'default',
+  (
+    primary: #448aff,
+    accent: #ff5252,
+  )
 );
 
 @import '~vue-material/dist/theme/all';
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 .app__container {
-    width: 100vw;
-    overflow: auto;
+  width: 100vw;
+  overflow: auto;
 }
 
 @font-face {
-    font-family: 'gokuboso';
-    src: url('./assets/Alcubierre.otf') format('opentype');
+  font-family: 'gokuboso';
+  src: url('./assets/Alcubierre.otf') format('opentype');
 }
 .forupdate {
-    margin: 0;
+  margin: 0;
 }
 </style>

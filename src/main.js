@@ -12,6 +12,6 @@ Vue.use(VueMaterial);
 import router from './router';
 
 new Vue({
-    render: h => h(App),
-    router,
+  render: h => h(App),
+  router,
 }).$mount('#app');
